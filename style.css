@@ -110,7 +110,7 @@ body {
 }
 
 /* main screen */
-gi
+
 .mainScreen {
     height: 610px;
     background-color: #e8e8e8;
@@ -141,4 +141,44 @@ gi
     font-size: 40px;
     line-height: 32px;
     margin-top: 19px;
+}
+
+/* offers */
+
+.offers {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 829px;
+}
+
+.offers > div:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offers > div {
+    position: relative;
+}
+
+.offers .label {
+    position: absolute;
+    top: 25px;
+    padding: 15px 20px;
+    background: white;
+    text-transform: uppercase;
+}
+
+.labelTop {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.labelBottom {
+    font-size: 30px;
+    color: #f16d7f;
+    font-weight: 900;
 }
